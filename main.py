@@ -34,7 +34,6 @@ hora_programada = config.get('funcionamento', 'hora_programada')
 if __name__ == '__main__':
     while True:
         hora_atual = datetime.today().strftime('%H:%M')
-        print(hora_atual, type(hora_atual), hora_programada, type(hora_programada))
         logging.info(f'consultando hora programada: {hora_programada}')
         if hora_programada == hora_atual:
             '''TREAD'''

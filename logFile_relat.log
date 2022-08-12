@@ -1,33 +1,31 @@
-14/07/2022 06:09:42 PM - INFO:consultando hora programada: 18:09
-14/07/2022 06:09:46 PM - INFO:conexão com o banco de dados efetuada com sucesso.
-14/07/2022 06:09:46 PM - INFO:Buscando transações de envio ao soc
-14/07/2022 06:09:46 PM - INFO:Buscando informações no banco de dados
-14/07/2022 06:09:46 PM - INFO:Deparando dados de envio
-14/07/2022 06:09:46 PM - INFO:Validando dados de envio
-14/07/2022 06:09:46 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 0 -- Itens não enviados: 92 -- Porcentagem: 0
-14/07/2022 06:09:46 PM - INFO:Analisando dados de envio
-14/07/2022 06:09:46 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 0 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 0
-14/07/2022 06:09:46 PM - INFO:Criando arquivos
-14/07/2022 06:09:46 PM - INFO:Arquivos criados com sucesso.
-14/07/2022 06:09:46 PM - INFO:Alterando HTML base
-14/07/2022 06:09:46 PM - INFO:Conectando no servidor
-14/07/2022 06:09:47 PM - INFO:Criando corpo do email
-14/07/2022 06:09:47 PM - INFO:Enviando email
-14/07/2022 06:09:51 PM - INFO:Email enviado com sucesso.
-14/07/2022 06:09:53 PM - INFO:conexão com o banco de dados efetuada com sucesso.
-14/07/2022 06:09:53 PM - INFO:Buscando transações de envio ao soc
-14/07/2022 06:09:53 PM - INFO:Buscando informações no banco de dados
-14/07/2022 06:09:53 PM - INFO:Deparando dados de envio
-14/07/2022 06:09:53 PM - INFO:Validando dados de envio
-14/07/2022 06:09:53 PM - INFO:Empresa: AngloGold ---Itens Enviados: 195 -- Itens não enviados: 0 -- Porcentagem: 100
-14/07/2022 06:09:53 PM - INFO:Analisando dados de envio
-14/07/2022 06:09:53 PM - INFO:Empresa: AngloGold --- Itens recebidos: 170 -- Itens não recebidos: 25 -- Porcentagem de Recebimento: 87
-14/07/2022 06:09:53 PM - INFO:Criando arquivos
-14/07/2022 06:09:53 PM - INFO:Arquivos criados com sucesso.
-14/07/2022 06:09:54 PM - INFO:Alterando HTML base
-14/07/2022 06:09:54 PM - INFO:Conectando no servidor
-14/07/2022 06:09:55 PM - INFO:Criando corpo do email
-14/07/2022 06:09:55 PM - INFO:Enviando email
-14/07/2022 06:09:58 PM - INFO:Email enviado com sucesso.
-14/07/2022 06:10:58 PM - INFO:consultando hora programada: 18:09
-14/07/2022 06:10:58 PM - INFO:hora programada invalida. Resta 86340 segundos para execução
+11/08/2022 05:24:18 PM - INFO:consultando hora programada: 13:42
+11/08/2022 05:24:22 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+11/08/2022 05:24:22 PM - INFO:Buscando transações de envio ao soc
+11/08/2022 05:24:22 PM - INFO:Buscando informações no banco de dados
+11/08/2022 05:24:23 PM - INFO:Analisando dados de envio
+11/08/2022 05:24:23 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 0 -- Itens não recebidos: 1 -- Porcentagem de Recebimento: 0
+11/08/2022 05:24:23 PM - INFO:Deparando dados de envio
+11/08/2022 05:24:23 PM - INFO:Validando dados de envio
+11/08/2022 05:24:23 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 1 -- Itens não enviados: 0 -- Porcentagem: 100
+11/08/2022 05:24:23 PM - INFO:Criando arquivos
+11/08/2022 05:24:23 PM - INFO:Arquivos criados com sucesso.
+11/08/2022 05:24:23 PM - INFO:Alterando HTML base
+11/08/2022 05:24:23 PM - INFO:Conectando no servidor
+11/08/2022 05:24:24 PM - INFO:Criando corpo do email
+11/08/2022 05:24:24 PM - INFO:Enviando email
+11/08/2022 05:24:25 PM - INFO:Email enviado com sucesso.
+11/08/2022 05:24:27 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+11/08/2022 05:24:27 PM - INFO:Buscando transações de envio ao soc
+11/08/2022 05:24:27 PM - INFO:Buscando informações no banco de dados
+11/08/2022 05:24:28 PM - INFO:Analisando dados de envio
+11/08/2022 05:24:28 PM - INFO:Empresa: AngloGold --- Itens recebidos: 122 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 100
+11/08/2022 05:24:28 PM - INFO:Deparando dados de envio
+11/08/2022 05:24:28 PM - INFO:Validando dados de envio
+11/08/2022 05:24:28 PM - INFO:Empresa: AngloGold ---Itens Enviados: 122 -- Itens não enviados: 0 -- Porcentagem: 100
+11/08/2022 05:24:28 PM - INFO:Criando arquivos
+11/08/2022 05:24:28 PM - INFO:Arquivos criados com sucesso.
+11/08/2022 05:24:28 PM - INFO:Alterando HTML base
+11/08/2022 05:24:28 PM - INFO:Conectando no servidor
+11/08/2022 05:24:29 PM - INFO:Criando corpo do email
+11/08/2022 05:24:29 PM - INFO:Enviando email
+11/08/2022 05:24:31 PM - INFO:Email enviado com sucesso.

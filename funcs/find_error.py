@@ -20,11 +20,15 @@ class FindErrorSOC:
         self.nome_arquivos = []  # Nomes dos arquivos que serão enviados
         self.Dados_NoSend = None  # Dados que não foram enviados
         self.erros_recebimento = None  # Dados que não foram recebidos
-        self.cribs_tuple = tuple(cribs)  # cria uma tupla de cribs atraves de uma lista de cribs
+        if len(cribs) > 1:
+            self.cribs_tuple = tuple(cribs)  # cria uma tupla de cribs atraves de uma lista de cribs
+        else:
+            self.cribs_tuple = (0, cribs[0])
         self.empresa = empresa.replace(' ', '')
 
         '''tatisticas'''
         self.numeros = {}
+        self.erros_dirty_number = 0 #lista de erros sem tratamento
 
 
 
@@ -49,9 +53,11 @@ class FindErrorSOC:
 
         self.consulta_erros()
         self.consulta_bd()
+        self.analisa_envio() # analisa o envio primeiro, pois precisamos
+        # tratar os dados que não deveriam ser enviados e deram erros para não haver divergencia de numeros
         self.valida_dados()
         self.valida_envio()
-        self.analisa_envio()
+        self.revalida_dados()
         self.cria_arquivos()
 
     def consulta_erros(self):
@@ -89,9 +95,31 @@ class FindErrorSOC:
         for i in all_trans:
             self.trans_dict.append(dict(zip(columnNames, i)))
 
+    def revalida_dados(self):
+        logging.info('Revalidando dados de envio')
+        for trans in self.trans_dict:
+            validacao = filter(lambda envio: envio['Transnumber'] == trans['transnumber'], self.envios_dict)
+            if list(validacao):  # se esta na lista de transações esta validada
+                pass
+            else:
+                logging.warning(f'envio falho: {trans}')
+
+        for trans in self.envios_dict:
+            validacao = filter(lambda envio: envio['transnumber'] == trans['Transnumber'], self.trans_dict)
+            if list(validacao):  # se esta na lista de transações esta validada
+                pass
+            else:
+                logging.warning(f'envio falho: {trans}')
+
+
+
 
     def valida_dados(self):
         logging.info('Deparando dados de envio')
+        logging.info(f'dados enviados: {len(self.envios_dict)}, dados no banco: {len(self.trans_dict)}')
+        if len(self.envios_dict) != len(self.trans_dict):
+            logging.warning('Dados de envio divergente')
+
         for trans in self.trans_dict:
             validacao = filter(lambda envio: envio['Transnumber'] == trans['transnumber'], self.envios_dict)
             if list(validacao):  # se esta na lista de transações esta validada
@@ -101,11 +129,13 @@ class FindErrorSOC:
 
     def valida_envio(self):
         logging.info('Validando dados de envio')
+        '''Compara dados do banco com os dados enviados pela API'''
         dados_true = list(filter(lambda banco: banco['status'] == True, self.trans_dict))
         dados_false = list(filter(lambda banco: banco['status'] == False, self.trans_dict))
 
-        QtdDadosSend = len(dados_true)
+        QtdDadosSend = len(dados_true) - self.erros_dirty_number
         QtdDadosNoSend = len(dados_false)
+
         if QtdDadosSend != 0:
             PercentSend = (100 - round(QtdDadosNoSend/(QtdDadosSend/100)))
         else:
@@ -122,9 +152,29 @@ class FindErrorSOC:
                      f'Itens não enviados: {QtdDadosNoSend} -- Porcentagem: {PercentSend}')
 
     def analisa_envio(self):
+        def trata_erros(self, erros):
+            erros_limpos = []
+            if self.empresa == 'AngloGold':
+                for erro in erros:
+                    id = list(filter(lambda banco: banco['EmployeeLocalID'] == erro['IssuedTo']
+                                                   and banco['transnumber'] == erro['Transnumber'], self.trans_dict))
+                    # print(id[0]['IssuedTo'])
+                    if id[0]['IssuedTo'].startswith('200') and not id[0]['IssuedTo'].startswith('200105'):
+                        erros_limpos.append(erro)
+                        # print('--------------')
+                        # print(erro)
+                return erros_limpos
+            else:
+                return erros
+
+
         logging.info('Analisando dados de envio')
-        erros = list(filter(lambda envio: envio['EnvioSoc'] == 2, self.envios_dict))
+        '''Filtra erros de recebimento SOC'''
+        erros_dirty = list(filter(lambda envio: envio['EnvioSoc'] == 2, self.envios_dict))
         acertos = list(filter(lambda envio: envio['EnvioSoc'] == 1, self.envios_dict))
+        erros = trata_erros(self, erros_dirty)
+
+        self.erros_dirty_number = len(erros_dirty) - len(erros)
 
         QtdDadosRecebidos = len(acertos)
         QtdDadosNaoRecebidos = len(erros)
@@ -136,6 +186,8 @@ class FindErrorSOC:
         self.numeros['qtd_received'] = QtdDadosRecebidos
         self.numeros['qtd_noreceived'] = QtdDadosNaoRecebidos
         self.numeros['porcentagem_received'] = PercentRecebido
+
+
 
         logging.info(f'Empresa: {self.empresa} --- Itens recebidos: {QtdDadosRecebidos} '
                      f'-- Itens não recebidos: {QtdDadosNaoRecebidos} -- Porcentagem de '
