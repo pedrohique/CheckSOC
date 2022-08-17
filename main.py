@@ -35,30 +35,30 @@ if __name__ == '__main__':
     while True:
         hora_atual = datetime.today().strftime('%H:%M')
         logging.info(f'consultando hora programada: {hora_programada}')
-        if hora_programada == hora_atual:
-            '''TREAD'''
-            dados = pd.read_excel(nome_arquivo)
-            for i in dados.index:
-                cribs = dados['cribs-interval'][i]
-                cribs = trata_cribs(cribs)
-                cribs_name = dados['nome_empr'][i]
-                cribs_emails = dados['emails'][i]
-                inactive = dados['inactive'][i]
-                time.sleep(1)
-                if inactive == 0:
-                    feSCO = find_error.FindErrorSOC(cribs, cribs_name)
-                    send_mail.SendMail(cribs_emails, feSCO.data, feSCO.numeros, feSCO.nome_arquivos, cribs_name)
-            time.sleep(60)
-        else:
-            hora_atual_obj = datetime.strptime(hora_atual, '%H:%M').time()
-            hora_programada_obj = datetime.strptime(hora_programada, '%H:%M').time()
-            falta = (datetime.combine(date.min, hora_programada_obj) - datetime.combine(date.min,
-                                                                                        hora_atual_obj)) / timedelta(
-                seconds=1)
-            dia = timedelta(days=1) / timedelta(seconds=1)
-            if falta < 0:
-                falta = dia - (falta * -1)
-
-            falta = int(falta)
-            logging.info(f'hora programada invalida. Resta {falta} segundos para execução')
-            time.sleep(falta)
+        # if hora_programada == hora_atual:
+        '''TREAD'''
+        dados = pd.read_excel(nome_arquivo)
+        for i in dados.index:
+            cribs = dados['cribs-interval'][i]
+            cribs = trata_cribs(cribs)
+            cribs_name = dados['nome_empr'][i]
+            cribs_emails = dados['emails'][i]
+            inactive = dados['inactive'][i]
+            time.sleep(1)
+            if inactive == 0:
+                feSCO = find_error.FindErrorSOC(cribs, cribs_name)
+                send_mail.SendMail(cribs_emails, feSCO.data, feSCO.numeros, feSCO.nome_arquivos, cribs_name)
+        time.sleep(60)
+        # else:
+        #     hora_atual_obj = datetime.strptime(hora_atual, '%H:%M').time()
+        #     hora_programada_obj = datetime.strptime(hora_programada, '%H:%M').time()
+        #     falta = (datetime.combine(date.min, hora_programada_obj) - datetime.combine(date.min,
+        #                                                                                 hora_atual_obj)) / timedelta(
+        #         seconds=1)
+        #     dia = timedelta(days=1) / timedelta(seconds=1)
+        #     if falta < 0:
+        #         falta = dia - (falta * -1)
+        #
+        #     falta = int(falta)
+        #     logging.info(f'hora programada invalida. Resta {falta} segundos para execução')
+        #     time.sleep(falta)

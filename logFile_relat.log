@@ -1,31 +1,132 @@
-11/08/2022 05:24:18 PM - INFO:consultando hora programada: 13:42
-11/08/2022 05:24:22 PM - INFO:conexão com o banco de dados efetuada com sucesso.
-11/08/2022 05:24:22 PM - INFO:Buscando transações de envio ao soc
-11/08/2022 05:24:22 PM - INFO:Buscando informações no banco de dados
-11/08/2022 05:24:23 PM - INFO:Analisando dados de envio
-11/08/2022 05:24:23 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 0 -- Itens não recebidos: 1 -- Porcentagem de Recebimento: 0
-11/08/2022 05:24:23 PM - INFO:Deparando dados de envio
-11/08/2022 05:24:23 PM - INFO:Validando dados de envio
-11/08/2022 05:24:23 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 1 -- Itens não enviados: 0 -- Porcentagem: 100
-11/08/2022 05:24:23 PM - INFO:Criando arquivos
-11/08/2022 05:24:23 PM - INFO:Arquivos criados com sucesso.
-11/08/2022 05:24:23 PM - INFO:Alterando HTML base
-11/08/2022 05:24:23 PM - INFO:Conectando no servidor
-11/08/2022 05:24:24 PM - INFO:Criando corpo do email
-11/08/2022 05:24:24 PM - INFO:Enviando email
-11/08/2022 05:24:25 PM - INFO:Email enviado com sucesso.
-11/08/2022 05:24:27 PM - INFO:conexão com o banco de dados efetuada com sucesso.
-11/08/2022 05:24:27 PM - INFO:Buscando transações de envio ao soc
-11/08/2022 05:24:27 PM - INFO:Buscando informações no banco de dados
-11/08/2022 05:24:28 PM - INFO:Analisando dados de envio
-11/08/2022 05:24:28 PM - INFO:Empresa: AngloGold --- Itens recebidos: 122 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 100
-11/08/2022 05:24:28 PM - INFO:Deparando dados de envio
-11/08/2022 05:24:28 PM - INFO:Validando dados de envio
-11/08/2022 05:24:28 PM - INFO:Empresa: AngloGold ---Itens Enviados: 122 -- Itens não enviados: 0 -- Porcentagem: 100
-11/08/2022 05:24:28 PM - INFO:Criando arquivos
-11/08/2022 05:24:28 PM - INFO:Arquivos criados com sucesso.
-11/08/2022 05:24:28 PM - INFO:Alterando HTML base
-11/08/2022 05:24:28 PM - INFO:Conectando no servidor
-11/08/2022 05:24:29 PM - INFO:Criando corpo do email
-11/08/2022 05:24:29 PM - INFO:Enviando email
-11/08/2022 05:24:31 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:00:28 PM - INFO:consultando hora programada: 11:49
+17/08/2022 12:00:32 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:00:32 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:00:32 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:00:32 PM - INFO:Analisando dados de envio
+17/08/2022 12:00:32 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 4 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 100
+17/08/2022 12:00:32 PM - INFO:Deparando dados de envio
+17/08/2022 12:00:32 PM - INFO:dados enviados: 4, dados no banco: 4
+17/08/2022 12:00:32 PM - INFO:Validando dados de envio
+17/08/2022 12:00:32 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 4 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:00:32 PM - INFO:Revalidando dados de envio
+17/08/2022 12:00:32 PM - INFO:Criando arquivos
+17/08/2022 12:00:32 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:00:32 PM - INFO:Alterando HTML base
+17/08/2022 12:00:32 PM - INFO:Conectando no servidor
+17/08/2022 12:00:33 PM - INFO:Criando corpo do email
+17/08/2022 12:00:33 PM - INFO:Enviando email
+17/08/2022 12:00:35 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:00:37 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:00:37 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:00:37 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:00:37 PM - INFO:Analisando dados de envio
+17/08/2022 12:00:37 PM - INFO:Transação não encontrada no Banco - {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:00:37 PM - INFO:Transação não encontrada no Banco - {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:00:37 PM - INFO:Empresa: AngloGold --- Itens recebidos: 298 -- Itens não recebidos: 2 -- Porcentagem de Recebimento: 99
+17/08/2022 12:00:37 PM - INFO:Deparando dados de envio
+17/08/2022 12:00:37 PM - INFO:dados enviados: 315, dados no banco: 309
+17/08/2022 12:00:37 PM - WARNING:Dados de envio divergente
+17/08/2022 12:00:37 PM - INFO:Validando dados de envio
+17/08/2022 12:00:37 PM - INFO:Empresa: AngloGold ---Itens Enviados: 294 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:00:37 PM - INFO:Revalidando dados de envio
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 43933, 'Transnumber': 4229046, 'Item': '459', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 58', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 30, 23), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01C02-A', 'IssuedTo': '7563', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 56, 727000), 'Erro': ''}
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 44064, 'Transnumber': 4229174, 'Item': '655', 'Description1': 'CALÇA FEMININA Nº42', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-G', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 13, 160000), 'Erro': ''}
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 44070, 'Transnumber': 4230443, 'Item': '501', 'Description1': 'MACACAO ELETRICISTA 48/50', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 10, 19, 48), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01E02-B', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 0, 670000), 'Erro': ''}
+17/08/2022 12:00:37 PM - WARNING:envio falho: {'Id': 44095, 'Transnumber': 4229843, 'Item': '457', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 54', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 9, 1, 25), 'Quantity': 1, 'Crib': '200', 'CribBin': '200-B01A09', 'IssuedTo': '7653', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 55, 887000), 'Erro': ''}
+17/08/2022 12:00:37 PM - INFO:Criando arquivos
+17/08/2022 12:00:38 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:00:38 PM - INFO:Alterando HTML base
+17/08/2022 12:00:38 PM - INFO:Conectando no servidor
+17/08/2022 12:00:39 PM - INFO:Criando corpo do email
+17/08/2022 12:00:39 PM - INFO:Enviando email
+17/08/2022 12:00:40 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:01:40 PM - INFO:consultando hora programada: 11:49
+17/08/2022 12:01:41 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:01:41 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:01:42 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:01:42 PM - INFO:Analisando dados de envio
+17/08/2022 12:01:42 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 4 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 100
+17/08/2022 12:01:42 PM - INFO:Deparando dados de envio
+17/08/2022 12:01:42 PM - INFO:dados enviados: 4, dados no banco: 4
+17/08/2022 12:01:42 PM - INFO:Validando dados de envio
+17/08/2022 12:01:42 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 4 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:01:42 PM - INFO:Revalidando dados de envio
+17/08/2022 12:01:42 PM - INFO:Criando arquivos
+17/08/2022 12:01:42 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:01:42 PM - INFO:Alterando HTML base
+17/08/2022 12:01:42 PM - INFO:Conectando no servidor
+17/08/2022 12:01:43 PM - INFO:Criando corpo do email
+17/08/2022 12:01:43 PM - INFO:Enviando email
+17/08/2022 12:01:44 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:01:46 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:01:46 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:01:46 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:01:46 PM - INFO:Analisando dados de envio
+17/08/2022 12:01:46 PM - INFO:Transação não encontrada no Banco - {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:01:46 PM - INFO:Transação não encontrada no Banco - {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:01:46 PM - INFO:Empresa: AngloGold --- Itens recebidos: 298 -- Itens não recebidos: 2 -- Porcentagem de Recebimento: 99
+17/08/2022 12:01:46 PM - INFO:Deparando dados de envio
+17/08/2022 12:01:46 PM - INFO:dados enviados: 315, dados no banco: 309
+17/08/2022 12:01:46 PM - WARNING:Dados de envio divergente
+17/08/2022 12:01:46 PM - INFO:Validando dados de envio
+17/08/2022 12:01:46 PM - INFO:Empresa: AngloGold ---Itens Enviados: 294 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:01:46 PM - INFO:Revalidando dados de envio
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 43933, 'Transnumber': 4229046, 'Item': '459', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 58', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 30, 23), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01C02-A', 'IssuedTo': '7563', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 56, 727000), 'Erro': ''}
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 44064, 'Transnumber': 4229174, 'Item': '655', 'Description1': 'CALÇA FEMININA Nº42', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-G', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 13, 160000), 'Erro': ''}
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 44070, 'Transnumber': 4230443, 'Item': '501', 'Description1': 'MACACAO ELETRICISTA 48/50', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 10, 19, 48), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01E02-B', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 0, 670000), 'Erro': ''}
+17/08/2022 12:01:46 PM - WARNING:envio falho: {'Id': 44095, 'Transnumber': 4229843, 'Item': '457', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 54', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 9, 1, 25), 'Quantity': 1, 'Crib': '200', 'CribBin': '200-B01A09', 'IssuedTo': '7653', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 55, 887000), 'Erro': ''}
+17/08/2022 12:01:46 PM - INFO:Criando arquivos
+17/08/2022 12:01:46 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:01:47 PM - INFO:Alterando HTML base
+17/08/2022 12:01:47 PM - INFO:Conectando no servidor
+17/08/2022 12:01:47 PM - INFO:Criando corpo do email
+17/08/2022 12:01:47 PM - INFO:Enviando email
+17/08/2022 12:01:49 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:02:49 PM - INFO:consultando hora programada: 11:49
+17/08/2022 12:02:50 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:02:50 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:02:50 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:02:51 PM - INFO:Analisando dados de envio
+17/08/2022 12:02:51 PM - INFO:Empresa: NovoNordiskMinas --- Itens recebidos: 4 -- Itens não recebidos: 0 -- Porcentagem de Recebimento: 100
+17/08/2022 12:02:51 PM - INFO:Deparando dados de envio
+17/08/2022 12:02:51 PM - INFO:dados enviados: 4, dados no banco: 4
+17/08/2022 12:02:51 PM - INFO:Validando dados de envio
+17/08/2022 12:02:51 PM - INFO:Empresa: NovoNordiskMinas ---Itens Enviados: 4 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:02:51 PM - INFO:Revalidando dados de envio
+17/08/2022 12:02:51 PM - INFO:Criando arquivos
+17/08/2022 12:02:51 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:02:51 PM - INFO:Alterando HTML base
+17/08/2022 12:02:51 PM - INFO:Conectando no servidor
+17/08/2022 12:02:52 PM - INFO:Criando corpo do email
+17/08/2022 12:02:52 PM - INFO:Enviando email
+17/08/2022 12:02:53 PM - INFO:Email enviado com sucesso.
+17/08/2022 12:02:54 PM - INFO:conexão com o banco de dados efetuada com sucesso.
+17/08/2022 12:02:54 PM - INFO:Buscando transações de envio ao soc
+17/08/2022 12:02:55 PM - INFO:Buscando informações no banco de dados
+17/08/2022 12:02:55 PM - INFO:Analisando dados de envio
+17/08/2022 12:02:55 PM - INFO:Transação não encontrada no Banco - {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:02:55 PM - INFO:Transação não encontrada no Banco - {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:02:55 PM - INFO:Empresa: AngloGold --- Itens recebidos: 298 -- Itens não recebidos: 2 -- Porcentagem de Recebimento: 99
+17/08/2022 12:02:55 PM - INFO:Deparando dados de envio
+17/08/2022 12:02:55 PM - INFO:dados enviados: 315, dados no banco: 309
+17/08/2022 12:02:55 PM - WARNING:Dados de envio divergente
+17/08/2022 12:02:55 PM - INFO:Validando dados de envio
+17/08/2022 12:02:55 PM - INFO:Empresa: AngloGold ---Itens Enviados: 294 -- Itens não enviados: 0 -- Porcentagem: 100
+17/08/2022 12:02:55 PM - INFO:Revalidando dados de envio
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 43933, 'Transnumber': 4229046, 'Item': '459', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 58', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 30, 23), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01C02-A', 'IssuedTo': '7563', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 56, 727000), 'Erro': ''}
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 43986, 'Transnumber': 4229135, 'Item': '238', 'Description1': 'LUVAS QUIMICA TAMANHO 09 -FIOS DE NYLON', 'Description2': 'CA15630', 'Transdate': datetime.datetime(2022, 8, 16, 7, 39, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01D08-A', 'IssuedTo': '10520638', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 5, 49, 97000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - Funcionário não encontrado'}
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 44063, 'Transnumber': 4229173, 'Item': '', 'Description1': 'Camisa Op Feminina Laranja G Longa 5 ', 'Description2': '', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 25), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-C', 'IssuedTo': '7569', 'EnvioSoc': 2, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 4, 59, 360000), 'Erro': 'SOC-200 - ERRO. Operação não realizada. - DadosEntregaEpiWsVo.codigoEpi não pode estar em branco'}
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 44064, 'Transnumber': 4229174, 'Item': '655', 'Description1': 'CALÇA FEMININA Nº42', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 7, 43, 59), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01F04-G', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 13, 160000), 'Erro': ''}
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 44070, 'Transnumber': 4230443, 'Item': '501', 'Description1': 'MACACAO ELETRICISTA 48/50', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 10, 19, 48), 'Quantity': 1, 'Crib': '202', 'CribBin': '202-A01E02-B', 'IssuedTo': '7569', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 7, 0, 670000), 'Erro': ''}
+17/08/2022 12:02:55 PM - WARNING:envio falho: {'Id': 44095, 'Transnumber': 4229843, 'Item': '457', 'Description1': 'MACACAO SEGURANÇA INDUSTRIAL LARANJA 54', 'Description2': 'CA123456789', 'Transdate': datetime.datetime(2022, 8, 16, 9, 1, 25), 'Quantity': 1, 'Crib': '200', 'CribBin': '200-B01A09', 'IssuedTo': '7653', 'EnvioSoc': 1, 'DtEnvioSoc': datetime.datetime(2022, 8, 16, 23, 6, 55, 887000), 'Erro': ''}
+17/08/2022 12:02:55 PM - INFO:Criando arquivos
+17/08/2022 12:02:55 PM - INFO:Arquivos criados com sucesso.
+17/08/2022 12:02:55 PM - INFO:Alterando HTML base
+17/08/2022 12:02:55 PM - INFO:Conectando no servidor
+17/08/2022 12:02:56 PM - INFO:Criando corpo do email
+17/08/2022 12:02:56 PM - INFO:Enviando email
+17/08/2022 12:02:57 PM - INFO:Email enviado com sucesso.

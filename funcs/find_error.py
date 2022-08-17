@@ -156,13 +156,17 @@ class FindErrorSOC:
             erros_limpos = []
             if self.empresa == 'AngloGold':
                 for erro in erros:
+                    # print('--------------------------------------')
+                    # print(erro)
                     id = list(filter(lambda banco: banco['EmployeeLocalID'] == erro['IssuedTo']
                                                    and banco['transnumber'] == erro['Transnumber'], self.trans_dict))
-                    # print(id[0]['IssuedTo'])
-                    if id[0]['IssuedTo'].startswith('200') and not id[0]['IssuedTo'].startswith('200105'):
-                        erros_limpos.append(erro)
-                        # print('--------------')
-                        # print(erro)
+                    # print(id)
+                    # print('--------------------------------------')
+                    try:
+                        if id[0]['IssuedTo'].startswith('200') and not id[0]['IssuedTo'].startswith('200105'):
+                            erros_limpos.append(erro)
+                    except:
+                        logging.info(f'Transação não encontrada no Banco - {erro}')
                 return erros_limpos
             else:
                 return erros
